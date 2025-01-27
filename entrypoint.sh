@@ -104,7 +104,9 @@ function main(){
 	installPipRequirements
  	ls || true
   	tree || true
-	runCdk ${INPUT_CDK_ARGS}
+	runCdk ${INPUT_CDK_ARGS} || true
+ 	pwd || true
+  	ls || true
 }
 
 main
