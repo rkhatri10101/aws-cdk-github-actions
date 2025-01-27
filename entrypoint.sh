@@ -107,6 +107,7 @@ function main(){
 	runCdk ${INPUT_CDK_ARGS} || true
  	pwd || true
   	ls || true
+   	ls lambda/handle-spot/ || true
 }
 
 main
